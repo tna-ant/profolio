@@ -63,7 +63,7 @@ header{flex-wrap:wrap;gap:8px 12px;align-items:center}
 .card:first-child{margin-top:0}
 /* The picked album lifts a little; the albums after it slide down to make room, so nothing is hidden under it. */
 .card.below{--push:calc(var(--w) - var(--peek) - 12px)}
-.card.sel{z-index:50!important;transform:translateX(0) rotate(0) translateY(-36px) scale(1.04);box-shadow:0 22px 50px var(--shadow)}
+.card.sel{z-index:9999!important;transform:translateX(0) rotate(0) translateY(-36px) scale(1.04);box-shadow:0 22px 50px var(--shadow)}
 .card:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
 .art{position:absolute;inset:0;border-radius:3px;overflow:hidden;background-size:cover;background-position:center}
 
